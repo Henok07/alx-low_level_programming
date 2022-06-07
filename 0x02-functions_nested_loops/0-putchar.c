@@ -1,15 +1,19 @@
-#include "stdio.h"
+#include <stdio.h>
 /**
- *main - entry point
+ * main - entry point
  *
- *Description: prints _putchar followed by a newline
- *
- *Return: returns 0(successful)
- *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char putchar= "_putchar";
-		putchar("putchar");
-		return (0);
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		putchar(*sh);
+		sh++;
+	}
+	putchar('\n');
+
+	return (0);
 }
