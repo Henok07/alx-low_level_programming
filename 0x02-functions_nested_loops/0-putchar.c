@@ -1,21 +1,21 @@
-#include "putchar.h"
+#include "holberton.h"
 /**
- * main - entry point 
+ *main - entry point
  *
- * description: print putchar followed by a newline
- * 
- * Return: return 0(successful)
+ *Description: prints Holberton followed by a newline
+ *
+ *Return: returns 0(successful)
  *
  */
 int main(void)
 {
-	char putText[8] = "_putchar";
+	char holbText[9] = "Holberton";
 	int i;
 
-	for (i = 0; i < 8; i++)
-		
+	for (i = 0; i < 9; i++)
 	{
-		_putchar('/n');
-		return (0)
+		_putchar(holbText[i]);
 	}
+	_putchar('\n');
+	return (0);
 }
