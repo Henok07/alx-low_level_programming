@@ -10,6 +10,6 @@
 int main(void)
 {
 	char putchar= "_putchar";
-		printf("%c/n",putchar);
+		putchar("putchar");
 		return (0);
 }

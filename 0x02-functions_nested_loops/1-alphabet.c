@@ -1,12 +1,28 @@
-nclude "main.h"
-
+#include <stdio.h>
 /**
- * main - check the code
+ * print_alphabet - print a-z
  *
- * Return: Always 0.
+ * description: print the alphabet in lowercase followed by a newline
+ *
+ * Return:void
+ *
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		_putchar(ch);
+	}
+	-putchar('\n');
+
+
+
+
+
+
+
 }
+
+
