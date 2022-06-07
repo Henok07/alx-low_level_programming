@@ -1,21 +1,15 @@
-#include "holberton.h"
+#include "stdio.h"
 /**
  *main - entry point
  *
- *Description: prints Holberton followed by a newline
+ *Description: prints _putchar followed by a newline
  *
  *Return: returns 0(successful)
  *
  */
 int main(void)
 {
-	char holbText[9] = "Holberton";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(holbText[i]);
-	}
-	_putchar('\n');
-	return (0);
+	char putchar= "_putchar";
+		printf("%c/n",putchar);
+		return (0);
 }
