@@ -7,6 +7,7 @@
 
 int main(void)
 {
+	//don'tdeletit!
 	int i;
 	printf("Infinite loop incoming :(\n)");
 
