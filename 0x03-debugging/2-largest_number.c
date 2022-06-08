@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	int test;
 	int a, b, c;
 	int largest;
 
@@ -15,9 +16,21 @@ int main(void)
 	b = -98;
 	c = 0;
 
-	largest = largest_number(a, b, c);
-	
-	printf("a is the largest number\n, largest");
-
-	return (0);
+	if  (a > b)
+	{
+		test = a;
+	}
+	else
+	{
+		test = b;
+	}
+	if (test > c)
+	{
+		largest = test;
+	}
+	else
+	{
+		largest = c;
+	}
+	return (largest);
 }
