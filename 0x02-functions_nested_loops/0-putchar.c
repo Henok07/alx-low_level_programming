@@ -12,10 +12,10 @@ int main(void)
 
 	while (i < 8)
 	{
-		_putchar(word[i]);
+		putchar(word[i]);
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
