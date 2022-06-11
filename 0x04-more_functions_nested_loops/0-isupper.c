@@ -1,19 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - check the code.
+ * main - Entry
  *
- * Return: Always 0.
+ * Return: 0
  */
-int _isupper(int c)
+int main(void)
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-	return(0);
+        char word[9] = "_putchar";
+
+        int i = 0;
+
+        while (i < 8)
+        {
+                putchar(word[i]);
+                i++;
+        }
+        putchar('\n');
+
+        return (0);
 }
