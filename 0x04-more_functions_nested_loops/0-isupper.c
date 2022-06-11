@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - Entry
+ * main- Entry
  *
  * Return: 0
  */
+
 int main(void)
 {
         char word[9] = "_putchar";
@@ -12,10 +13,9 @@ int main(void)
 
         while (i < 8)
         {
-                putchar(word[i]);
+                _putchar(word[i]);
                 i++;
         }
-        putchar('\n');
-
+        _putchar('\n');
         return (0);
 }
