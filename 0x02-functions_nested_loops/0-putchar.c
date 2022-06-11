@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry
  *
- * Return: Always 0 (success)
+ * Return: 0
  */
 int main(void)
 {
@@ -12,10 +12,10 @@ int main(void)
 
 	while (i < 8)
 	{
-		putchar(word[i];
+		_putchar(word[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
